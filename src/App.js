@@ -1,6 +1,6 @@
 import React from "react";
-import HelloDiv from "./components/HelloDiv";
+import Calculator from "./components/Calculator";
 
-const App = () => <HelloDiv />;
+const App = () => <Calculator />;
 
 export default App;
