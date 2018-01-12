@@ -1,6 +1,6 @@
 import React from "react";
-import Calculator from "./components/Calculator";
+import Counter from "./components/Counter";
 
-const App = () => <Calculator />;
+const App = () => <Counter />;
 
 export default App;
