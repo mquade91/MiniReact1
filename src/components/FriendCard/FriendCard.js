@@ -17,6 +17,9 @@ const FriendCard = props => (
         <li>
           <strong>Address:</strong> {props.location}
         </li>
+        <li>
+        <strong>Click Count:</strong> {props.clickCount}
+        </li>
       </ul>
     </div>
     <span onClick = {() => props.removeFriend(props.id)} className="remove">[x]</span>

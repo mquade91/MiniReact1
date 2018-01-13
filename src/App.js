@@ -33,6 +33,7 @@ class App extends React.Component  {
         image={friend.image}
         occupation={friend.occupation}
         location= {friend.location}
+        clickCount= {friend.clickCount}
     />
     ))}
   </Wrapper>
